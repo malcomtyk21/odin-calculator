@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    width: 320px;
+    height: 568px;
+    border: 8px solid;
+    border-radius: 20px;
+    border-color: gray;
+}
+
+.button, .button-digit, .button-operation {
+    margin-bottom: 5px;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+
+.row-1, .row-2, .row-3, .row-4, .row-5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: #505050;
+}
+
+.button:hover, .button-digit:hover, .button-operation:hover {
+    background-color: #D4D4D2
+}
+
+.button-digit {
+    background-color: #1C1C1C;
+}
+
+.button-operation {
+    background-color: #FF9500;
+}
+

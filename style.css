@@ -1,24 +1,48 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(62, 59, 59);
 }
 
 button {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.information {
+    width: 400px;
+    margin: 30px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer p {
+    margin: 50px;
+    color: rgb(64, 64, 64);
+    text-align: center;
+    font-size: 16px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     background-color: black;
     width: 320px;
     height: 568px;
     border: 8px solid;
     border-radius: 20px;
-    border-color: gray;
+    border-color: rgb(49, 49, 49);
 }
 
 .button, .button-digit, .button-operation {
@@ -34,11 +58,15 @@ button {
 }
 
 .button {
-    background-color: #505050;
+    background-color: #5c5c5e;
 }
 
-.button:hover, .button-digit:hover, .button-operation:hover {
-    background-color: #D4D4D2
+.button:hover, .button-digit:hover {
+    background-color: #95949A
+}
+
+.button-operation:hover {
+    background-color: #fbc78d;
 }
 
 .button-digit {
@@ -46,6 +74,25 @@ button {
 }
 
 .button-operation {
-    background-color: #FF9500;
+    background-color: #FF9F0A;
+    font-size: 30px;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.final {
+    color: white;
+    font-size: 45px;
+    padding: 10px;
+}
+
+.equation {
+    color: #95949A;
+    font-size: 40px;
+    padding: 10px;
 }
 

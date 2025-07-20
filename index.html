@@ -6,46 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=100&id=qrOXrfUDKkOX&format=png&color=000000">
 </head>
 
 <body>
+    <div class="information">
+        <h1>Calculator</h1>
+        This project is a fully functional web-based calculator inspired by the Apple iOS calculator interface. It replicates the sleek design and intuitive usability of the original, while providing core arithmetic operations such as addition, subtraction, multiplication, and division.
+    </div>
     <div class="container">
-        <div class="result"></div>
+        <div class="result">
+            <div class="equation"></div>
+            <div class="final"></div>
+        </div>
         <div class="allButtons">
             <div class="row-1">
                 <button class="button" id="clear" role="button">AC</button>
-                <button class="button" id="delete" role="button">BACK</button>
+                <button class="button" id="delete" role="button">←</button>
                 <button class="button" id="modulor" role="button">%</button>
-                <button class="button-operation" id="divide" role="button">/</button>
+                <button class="button-operation" id="divide" role="button">÷</button>
             </div>
             <div class="row-2">
-                <button class="button-digit" id="7" role="button">7</button>
-                <button class="button-digit" id="8" role="button">8</button>
-                <button class="button-digit" id="9" role="button">9</button>
+                <button class="button-digit" id="digit_7" role="button">7</button>
+                <button class="button-digit" id="digit_8" role="button">8</button>
+                <button class="button-digit" id="digit_9" role="button">9</button>
                 <button class="button-operation" id="multiply" role="button">x</button>
             </div>
             <div class="row-3">
-                <button class="button-digit" id="4" role="button">4</button>
-                <button class="button-digit" id="5" role="button">5</button>
-                <button class="button-digit" id="6" role="button">6</button>
+                <button class="button-digit" id="digit_4" role="button">4</button>
+                <button class="button-digit" id="digit_5" role="button">5</button>
+                <button class="button-digit" id="digit_6" role="button">6</button>
                 <button class="button-operation" id="minus" role="button">-</button>
             </div>
             <div class="row-4">
-                <button class="button-digit" id="1" role="button">1</button>
-                <button class="button-digit" id="2" role="button">2</button>
-                <button class="button-digit" id="3" role="button">3</button>
+                <button class="button-digit" id="digit_1" role="button">1</button>
+                <button class="button-digit" id="digit_2" role="button">2</button>
+                <button class="button-digit" id="digit_3" role="button">3</button>
                 <button class="button-operation" id="addition" role="button">+</button>
             </div>
             <div class="row-5">
                 <button class="button-digit" id="negate" role="button">+/-</button>
-                <button class="button-digit" id="0" role="button">0</button>
+                <button class="button-digit" id="digit_0" role="button">0</button>
                 <button class="button-digit" id="decimal" role="button">.</button>
                 <button class="button-operation" id="equal" role="button">=</button>
             </div>
         </div>
     </div>
-
+    <div class="footer">
+        <p><a href="https://github.com/malcomtyk21">Copyright @malcomtyk21 2025</a></p>
+    </div>
+    <script src="script.js"></script>
 </body>
-<script src="myscripts.js"></script>
+
 
 </html>
